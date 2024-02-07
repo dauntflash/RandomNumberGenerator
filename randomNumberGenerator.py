@@ -36,7 +36,7 @@ while True:
         new=int(input("You are close, guess again: "))
         diff = num-new
         diff = abs(int (diff))
-    elif diff >=1 and diff <= 3:
+    elif diff >=1 and diff < 5:
         new=int(input("You are almost there, one more guess: "))
         diff = num-new
         diff = abs(int (diff))
