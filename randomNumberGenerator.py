@@ -7,7 +7,7 @@ def limits():
     return num
 
 num=int (limits())
-//print(num) YOU CAN ADD THIS LINE TO KNOW THE NUMBER GENERATED.
+#print(num) YOU CAN ADD THIS LINE TO KNOW THE NUMBER GENERATED.
 guess=input("I am thinking of a number between 1 and 100, guess the number: ")
 
 while True:
